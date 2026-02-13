@@ -1,0 +1,123 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #1d4ed8, #0891b2);
+  color: white;
+  padding: 18px 22px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.panel,
+.sub-panel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth-grid,
+.split-grid,
+.metric-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.auth-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.split-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.metric-grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.metric-card {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 12px;
+  background: #f8fafc;
+}
+
+.tab-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tab-button,
+.primary-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.tab-button {
+  background: #e2e8f0;
+}
+
+.tab-button.active,
+.primary-btn {
+  background: #1d4ed8;
+  color: white;
+}
+
+input,
+select {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  box-sizing: border-box;
+}
+
+.inline-row {
+  display: flex;
+  gap: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.status {
+  color: #0369a1;
+}
+
+.error {
+  color: #b91c1c;
+}
