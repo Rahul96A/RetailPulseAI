@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailPulseAI.API", "RetailPulseAI.API\RetailPulseAI.API.csproj", "{68B713A7-9110-44D0-B71A-DF286B1DCBA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailPulseAI.Application", "RetailPulseAI.Application\RetailPulseAI.Application.csproj", "{DC88DBD0-5D75-4B97-B149-E3957D9A94A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailPulseAI.Domain", "RetailPulseAI.Domain\RetailPulseAI.Domain.csproj", "{A3515F66-F499-4669-8EB4-BA6B65BC6198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailPulseAI.Infrastructure", "RetailPulseAI.Infrastructure\RetailPulseAI.Infrastructure.csproj", "{E21082E9-EA62-4C4A-B176-690C6FA2B015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailPulseAI.Persistence", "RetailPulseAI.Persistence\RetailPulseAI.Persistence.csproj", "{7602A731-C6FE-4CD7-9BAF-8EFBF1E3D750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B713A7-9110-44D0-B71A-DF286B1DCBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B713A7-9110-44D0-B71A-DF286B1DCBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B713A7-9110-44D0-B71A-DF286B1DCBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B713A7-9110-44D0-B71A-DF286B1DCBA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC88DBD0-5D75-4B97-B149-E3957D9A94A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC88DBD0-5D75-4B97-B149-E3957D9A94A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC88DBD0-5D75-4B97-B149-E3957D9A94A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC88DBD0-5D75-4B97-B149-E3957D9A94A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3515F66-F499-4669-8EB4-BA6B65BC6198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3515F66-F499-4669-8EB4-BA6B65BC6198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3515F66-F499-4669-8EB4-BA6B65BC6198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3515F66-F499-4669-8EB4-BA6B65BC6198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21082E9-EA62-4C4A-B176-690C6FA2B015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21082E9-EA62-4C4A-B176-690C6FA2B015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21082E9-EA62-4C4A-B176-690C6FA2B015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21082E9-EA62-4C4A-B176-690C6FA2B015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7602A731-C6FE-4CD7-9BAF-8EFBF1E3D750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7602A731-C6FE-4CD7-9BAF-8EFBF1E3D750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7602A731-C6FE-4CD7-9BAF-8EFBF1E3D750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7602A731-C6FE-4CD7-9BAF-8EFBF1E3D750}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
